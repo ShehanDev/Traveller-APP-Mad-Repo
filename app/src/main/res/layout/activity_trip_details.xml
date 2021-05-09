@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.TripDetails"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="trip"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/txname"
+        android:textColor="@color/purple_500"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="49dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="location"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="25dp"
+        android:id="@+id/txlocation"/>
+
+    <TextView
+        android:id="@+id/txDes"
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="25dp"
+        android:text="location"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/deletBtnT"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="1dp"
+        android:text="Delete"
+        android:onClick="deleteTrip"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/Tripback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/back25"
+        android:layout_marginLeft="200dp"
+        android:onClick="backTripto"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Traveller</string>
+    <string name="powerdBY">Powerd By : KIT KAT Developers</string>
+    <string name="get_started_btn">LETS GET STARTED</string>
+    <string name="slider_Des">this is discription to tarveller appp</string>
+    <string name="slider_heading1">Select Your Journy</string>
+    <string name="slider_heading2">Enjoy the the trip</string>
+    <string name="slider_heading3">Capture Memories</string>
+    <string name="slider_heading4">Share</string>
+    <string name="slider_desc1">Lets explore the world and choose the package that suits you</string>
+    <string name="slider_desc2">Waiting for the world to experience the beauty Lets go wherever the beauty of nature wants to go</string>
+    <string name="slider_desc3">Collect all your fond memories and your thoughts on each trip</string>
+    <string name="slider_desc4">Share your destination with friends</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="addTrip1">Add New Trip</string>
+    <string name="saveBtn">Save</string>
+    <string name="brouse">Brouse</string>
+    <string name="add">Add picture</string>
+    <string name="alredy_registerd_log_in">Alredy Registerd ? log in</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
